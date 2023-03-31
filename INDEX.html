@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>E commerce</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="flex-container">
+                <div class="logo-header">
+                    <img src="IMG/7.jpg" alt="Birdie" id="headerimage" />
+                    <nav>
+                        <ul>
+                            <li>HOME</li>
+                            <li>PAGE</li>
+                            <li>CONTACT</li>
+                            <li><a href="account.html">CREATE ACCOUNT</a> </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="input-signin">
+                    <form>
+                        <input type="text" id="fname" name="Username" placeholder="username" />
+                        <input type="password" id="pass" name="Password" placeholder="Password" />
+                        <input type="submit" value="submit" />
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+    <!--IMAGE SLIDER-->
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="img1.jpg" style="width:100%">
+            <div class="text">Caption Text</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="img2.jpg" style="width:100%">
+            <div class="text">Caption Two</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="img3.jpg" style="width:100%">
+            <div class="text">Caption Three</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <!--MAIN AND SIDE BAR-->
+
+    <div class="container">
+        <div class="containing">
+            <article>
+                <ul id="mainlist">
+                    <li><a href="shorts.html" class="linkable">SHORTS</a></li>
+                    <li><a href="skirts.html" class="linkable">SKIRTS</a></li>
+                    <li><a href="#">HOODIES</a></li>
+                    <li><a href="#">SHOES</a></li>
+                    <li><a href="#">LEGGINGS</a></li>
+                </ul>
+                <img src="img1.jpg" alt="" width="100%" height="auto">
+            </article>
+            <div class="promo" >
+                <img src="IMG/image2.jpg" alt="showup" width="100%">
+                <h2>PROMO 20%OFF</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Unde ad nulla at! Autem sunt modi fuga libero sed laudantium nobis.</p>
+            </div>
+        </div>
+    </div>
+
+    <!--FOOTER-->
+    <footer>
+        <div class="container">
+            <div class="faviconnn">
+                <i class="fa-brands fa-twitter" width="60px"></i>
+                <i class="fa-brands fa-square-snapchat"></i>
+                <i class="fa-solid fa-phone"></i>
+                <i class="fa-brands fa-pinterest"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+        </div>
+        <p>&copy;COMPANY</p>
+    </footer>
+
+    <script src="app.js">
+     
+    </script>
+
+</body>
+
+</html>
